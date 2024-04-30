@@ -48,11 +48,11 @@ git remote add master <repo-url.git>
 
 # NOTE
 
-- `git diff <file-name>` - shows that what change you have made
+- `git diff <file-name>` - shows that what changes you have made
 - `git restore <file-name>` - Discard all local changes in a file
 - `git restore <file-name>` - Restoring a deleted file
 
 
 - `git log --online` - to see all the commits with it id
-- `git reset <commit-id> - to go back previous commited stage
+- `git reset <commit-id>` - to go back previous commited stage
 
