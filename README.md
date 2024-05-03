@@ -1,9 +1,9 @@
 # Clone the repository
 
 ```
-git clone <repo-url.git> (If it is private repo, it will ask for authentication)
+git clone <repo-url.git> (If it is a private repo, it will ask for authentication)
 ```
-Enter into cloned repo by typing  `cd repo-name`
+Enter into the cloned repo by typing  `cd repo-name`
 
 # Configure the repository
 
@@ -25,7 +25,7 @@ git remote add master <repo-url.git>
 - `git add <filename>` - adds the change which you modified
 - `git commit -m "<commit-message>"` - commit the change
 
-#### `git push` - push the changes in you branches (by authentication)
+#### `git push` - push the changes that you made in the branches (by authentication)
 
 
 ## Create a new Branch
@@ -35,14 +35,14 @@ git remote add master <repo-url.git>
 - `git checkout -b "<branch-name>" - creates and enters into the branch
 
 - `git branch -d "<branch-name>" - deletes a branch
-- `git push <repo-url> --delete <branch>` - deletes the branch in your github
+- `git push <repo-url> --delete <branch>` - deletes the branch in your github repo
 
 - `git branch` - to see the current working branch
 
 
-#### ```git push --set-upstream origin <branch-name>``` - Creates the new branch in your github, so that you push the changes in the branch
+#### ```git push --set-upstream origin <branch-name>``` - Creates the new branch in your github repo, so that you push the changes in the branch
 
-#### `git merge <branch-name>` - execute the command from the main branch, it merges other branch with main branch
+#### `git merge <branch-name>` - execute the command from the main branch, it merges the other branch with the main branch
 
 
 
