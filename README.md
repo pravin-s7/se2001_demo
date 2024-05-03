@@ -31,10 +31,10 @@ git remote add master <repo-url.git>
 ## Create a new Branch
 
 - `git branch "<branch-name>"` - creates a new branch
-- `git checkout "<branch-name>" - enters to the branch
-- `git checkout -b "<branch-name>" - creates and enters into the branch
+- `git checkout "<branch-name>"` - enters to the branch
+- `git checkout -b "<branch-name>"` - creates and enters into the branch
 
-- `git branch -d "<branch-name>" - deletes a branch
+- `git branch -d "<branch-name>"` - deletes a branch
 - `git push <repo-url> --delete <branch>` - deletes the branch in your github repo
 
 - `git branch` - to see the current working branch
